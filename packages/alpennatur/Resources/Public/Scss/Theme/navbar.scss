@@ -1,0 +1,30 @@
+.container-mainnavigation {
+  display: flex;
+  flex: 1; /* Allows both nav sections to take up equal space */
+  justify-content: space-between; /* Evenly distributes links within each section */
+  justify-items: stretch;
+  align-items: center; /* Centers links vertically */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.logo-container {
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center; /* Centers the logo horizontally */
+  align-items: center; /* Centers the logo vertically */
+}
+
+.navbar-nav:first-child {
+  justify-content: flex-end; /* Aligns first nav section to the right */
+}
+
+.navbar-nav:last-child {
+  justify-content: flex-start; /* Aligns last nav section to the left */
+}
+
+.navbar-brand-logo-normal {
+  margin-top: 10%;
+}

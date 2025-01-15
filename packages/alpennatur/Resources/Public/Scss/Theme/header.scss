@@ -1,0 +1,25 @@
+.container-mainnavigation .nav-link.active {
+  color: $primary;
+}
+
+.nav-link.active, .nav-link.active::before {
+  border-bottom: none !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  content: none !important;
+}
+
+.container-mainnavigation .nav-link:hover {
+  color: $primary;
+}
+
+.nav-link.active, .nav-link:hover::before {
+  border-bottom: none !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  content: none !important;
+}
+
+.nav-item {
+  color: #707070;
+}
