@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="EXT:popup_power/Resources/Private/Language/locallang_db.xlf" date="2024-04-04T10:58:51Z" product-name="popup_power">
+        <header/>
+        <body>
+			<trans-unit id="tx_popuppower_domain_model_configuration" resname="tx_popuppower_domain_model_configuration">
+				<source>Configuration</source>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_name" resname="tx_popuppower_domain_model_configuration_name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_layout" resname="tx_popuppower_domain_model_configuration_layout">
+				<source>Layout</source>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_position" resname="tx_popuppower_domain_model_configuration_position">
+				<source>Position</source>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_position_I_0" resname="tx_popuppower_domain_model_configuration_position_I_0">
+				<source>Center</source>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_position_I_1" resname="tx_popuppower_domain_model_configuration_position_I_1">
+				<source>Center Left</source>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_position_I_2" resname="tx_popuppower_domain_model_configuration_position_I_2">
+				<source>Center Right</source>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_position_I_3" resname="tx_popuppower_domain_model_configuration_position_I_3">
+				<source>Bottom left</source>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_position_I_4" resname="tx_popuppower_domain_model_configuration_position_I_4">
+				<source>Bottom center</source>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_position_I_5" resname="tx_popuppower_domain_model_configuration_position_I_5">
+				<source>Bottom right</source>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_behaviour_appearance" resname="tx_popuppower_domain_model_configuration_behaviour_appearance">
+				<source>Behaviour appearance</source>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_behaviour_appearance_I_0" resname="tx_popuppower_domain_model_configuration_behaviour_appearance_I_0">
+				<source>once</source>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_behaviour_appearance_I_1" resname="tx_popuppower_domain_model_configuration_behaviour_appearance_I_1">
+				<source>always</source>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_popup_content" resname="tx_popuppower_domain_model_popup_content">
+				<source>Popup Power Content</source>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_delay" resname="tx_popuppower_domain_model_delay">
+				<source>Delay</source>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_delay_description" resname="tx_popuppower_domain_model_delay_description">
+				<source>in milliseconds</source>
+			</trans-unit>
+        </body>
+    </file>
+</xliff>

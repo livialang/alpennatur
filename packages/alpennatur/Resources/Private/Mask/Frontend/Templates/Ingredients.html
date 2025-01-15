@@ -1,0 +1,14 @@
+<!-- Text zuerst anzeigen -->
+<f:if condition="{data.tx_mask_text}">
+    <div class="text-content">
+        {data.tx_mask_text -> f:format.nl2br()}
+    </div>
+</f:if>
+
+<!-- Danach die Bilder anzeigen -->
+<f:for each="{data.tx_mask_picture}" as="file">
+    <div class="image-content">
+        <f:media file="{file}" width="200" alt="{file.alternative}" />
+        <div class="image-description">{file.description}</div>
+    </div>
+</f:for>

@@ -1,0 +1,16 @@
+<!-- Search field -->
+<div id="search-container">
+    <input type="text" id="searchBox" placeholder="Suche nach Kräutern...">
+</div>
+
+<!-- Container for searchable elements -->
+<div id="searchableContainer">
+    <f:if condition="{data.tx_mask_searchbox}">
+        <f:for each="{data.tx_mask_searchbox}" as="data_item">
+            <div class="searchableItem">
+                {data.tx_mask_searchbox}
+            </div>
+        </f:for>
+    </f:if>
+</div>
+

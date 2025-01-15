@@ -1,0 +1,58 @@
+######################
+#### DEPENDENCIES ####
+######################
+@import 'EXT:mask/Configuration/TypoScript/setup.typoscript'
+@import 'EXT:news/Configuration/TypoScript/setup.typoscript'
+@import 'EXT:news/Configuration/TypoScript/Styles/Twb5/setup.typoscript'
+@import 'EXT:popup-power/Configuration/TypoScript/setup.typoscript'
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/setup.typoscript">
+
+
+##############
+#### PAGE ####
+##############
+
+page.config.contentObjectExceptionHandler = 0
+
+page {
+    includeCSS {
+        theme = EXT:alpennatur/Resources/Public/Scss/Theme/theme.scss
+    }
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+
+    }
+
+    includeJSFooter {
+        alpennatur_scripts = EXT:alpennatur/Resources/Public/JavaScript/Dist/scripts.js
+        performSearch = EXT:alpennatur/Resources/Public/JavaScript/Dist/performSearch.js
+        herbslider = EXT:alpennatur/Resources/Public/JavaScript/Dist/herbslider.js
+    }
+}
+
+lib.maskContentElement {
+    templateRootPaths {
+        6 = EXT:bootstrap_package/Resources/Private/Templates/ContentElements
+    }
+    partialRootPaths {
+        6 = EXT:bootstrap_package/Resources/Private/Partials/ContentElements
+    }
+    layoutRootPaths {
+        6 = EXT:bootstrap_package/Resources/Private/Layouts/ContentElements
+    }
+}
+
+# ContentElements für den Footer
+lib.record = RECORDS
+lib.record {
+    tables = tt_content
+    source = 229
+}

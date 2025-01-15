@@ -1,0 +1,7 @@
+#
+# PageTS for alpennatur
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:alpennatur/Configuration/TsConfig/Page/RTE.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:alpennatur/Configuration/TsConfig/Page/TCEFORM.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:alpennatur/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:alpennatur/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">

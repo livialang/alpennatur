@@ -1,0 +1,77 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript">
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:alpennatur/Resources/Public/Images/alpennatur-grün.jpg
+        fileInverted = EXT:alpennatur/Resources/Public/Images/alpennatur-grün.jpg
+        height = 52
+        width = 192
+        alt = alpennatur
+        linktitle = alpennatur
+    }
+    favicon {
+        file = EXT:alpennatur/Resources/Public/Icons/alpennatur-grün.jpg
+    }
+    fluidtemplate {
+        layoutRootPath = EXT:alpennatur/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:alpennatur/Resources/Private/Partials/Page/
+        templateRootPath = EXT:alpennatur/Resources/Private/Templates/Page/
+    }
+}
+
+
+##################
+### EXTENSIONS ###
+##################
+plugin.bootstrap_package {
+    view {
+        layoutRootPath = EXT:alpennatur/Resources/Private/Layouts/
+        partialRootPath = EXT:alpennatur/Resources/Private/Partials/
+        templateRootPath = EXT:alpennatur/Resources/Private/Templates/
+    }
+}
+
+
+########################
+### CONTENT ELEMENTS ###
+########################
+plugin.bootstrap_package_contentelements {
+    view {
+        layoutRootPath = EXT:alpennatur/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:alpennatur/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:alpennatur/Resources/Private/Templates/ContentElements/
+    }
+}
+
+
+################################
+### BOOTSTRAP SCSS CONSTANTS ###
+################################
+plugin.bootstrap_package.settings.scss {
+    primary = #eb3e4a
+    secondary = #013859
+}
+
+page.theme.footernavigation {
+    navigationType = Directory
+    navigationValue = 38
+    enable = 1
+}
+
+#news
+plugin.tx_news.view.twb5 {
+    templateRootPath = EXT:alpennatur/Resources/Private/Templates/
+    partialRootPath = EXT:alpennatur/Resources/Private/Partials/
+    layoutRootPath = EXT:alpennatur/Resources/Private/Layouts/
+}
+
+plugin.tx_felogin_login.view.templateRootPath = EXT:alpennatur/Resources/Private/Templates/ContentElements/
+
+plugin.tx_slavlee_form.view.templateRootPath = EXT:alpennatur/Resources/Private/Templates/

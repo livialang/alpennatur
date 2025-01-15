@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="de" datatype="plaintext" original="EXT:popup_power/Resources/Private/Language/de.locallang.xlf" date="2024-05-17T10:58:51Z" product-name="popup_power">
+        <header/>
+        <body>
+			<trans-unit id="module_dashboard_description" resname="module_dashboard_description">
+				<target>Dies ist das Dashboard für die Erweiterung slavlee/popup-power. Hier können Sie die Popups für jede einzelne TYPO3-Seite konfigurieren.</target>
+			</trans-unit>
+			<trans-unit id="module_dashboard_nopageselected" resname="module_dashboard_nopageselected">
+				<target>Bitte wählen Sie eine TYPO3 Seite</target>
+			</trans-unit>
+
+			<trans-unit id="module_dashboard_form_general_title" resname="module_dashboard_form_general_title">
+				<target>Allgemeine Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="module_dashboard_form_layout_title" resname="module_dashboard_form_layout_title">
+				<target>Layout Einstellungen</target>
+			</trans-unit>
+			<trans-unit id="module_dashboard_form_submit" resname="module_dashboard_form_submit">
+				<target>Konfiguration speichern</target>
+			</trans-unit>
+			<trans-unit id="module_dashboard_form_remove" resname="module_dashboard_form_remove">
+				<target>Konfiguration entfernen</target>
+			</trans-unit>
+			<trans-unit id="module_dashboard_configuration_closest" resname="module_dashboard_configuration_closest">
+				<target>Diese Seite hat keine eigene Konfiguration. Die Konfiguration wird von der Seite übernommen: '%s' (ID: '%s').</target>
+			</trans-unit>
+
+			<trans-unit id="tx_popuppower_domain_model_configuration_override" resname="tx_popuppower_domain_model_configuration_override">
+				<target>Konfiguration überschreiben</target>
+			</trans-unit>
+			<trans-unit id="module_dashboard_form_layout_prependLabel" resname="module_dashboard_form_layout_prependLabel">
+				<target>Layout auswählen...</target>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_position_I_0" resname="tx_popuppower_domain_model_configuration_position_I_0">
+				<target>Mitte</target>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_position_I_1" resname="tx_popuppower_domain_model_configuration_position_I_1">
+				<target>Mitte links</target>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_position_I_2" resname="tx_popuppower_domain_model_configuration_position_I_2">
+				<target>Mitte rechts</target>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_position_I_3" resname="tx_popuppower_domain_model_configuration_position_I_3">
+				<target>Unten links</target>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_position_I_4" resname="tx_popuppower_domain_model_configuration_position_I_4">
+				<target>Unten Mitte</target>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_position_I_5" resname="tx_popuppower_domain_model_configuration_position_I_5">
+				<target>Unten rechts</target>
+			</trans-unit>
+			<trans-unit id="module_dashboard_form_position_prependLabel" resname="module_dashboard_form_position_prependLabel">
+				<target>Position wählen...</target>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_behaviour_appearance" resname="tx_popuppower_domain_model_configuration_behaviour_appearance">
+				<target>Erscheinungsverhalten</target>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_behaviour_appearance_I_0" resname="tx_popuppower_domain_model_configuration_behaviour_appearance_I_0">
+				<target>einmalig</target>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_behaviour_appearance_I_1" resname="tx_popuppower_domain_model_configuration_behaviour_appearance_I_1">
+				<target>immer</target>
+			</trans-unit>
+			<trans-unit id="module_dashboard_form_behaviour_appearance_prependLabel" resname="module_dashboard_form_behaviour_appearance_prependLabel">
+				<target>Verhalten auswählen...</target>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_configuration_popup_content" resname="tx_popuppower_domain_model_configuration_popup_content">
+				<target>Popup-Inhaltsseite</target>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_delay" resname="tx_popuppower_domain_model_delay">
+				<target>Verzögerung</target>
+			</trans-unit>
+			<trans-unit id="tx_popuppower_domain_model_delay_description" resname="tx_popuppower_domain_model_delay_description">
+				<target>in Millisekunden</target>
+			</trans-unit>
+			<trans-unit id="module_dashboard_form_popup_content_prependLabel" resname="module_dashboard_form_popup_content_prependLabel">
+				<target>Seite wählen...</target>
+			</trans-unit>
+
+			<trans-unit id="dashboard_buy_pro" resname="dashboard_buy_pro">
+				<target>Sie haben das Limit der kostenlosen Version erreicht. Um alle Funktionen freizuschalten, kaufen Sie bitte die Pro-Version. Sie können die Pro-Version unter dem folgenden Link erwerben:</target>
+			</trans-unit>
+			<trans-unit id="marketing_buypro" resname="marketing_buypro">
+				<target>Kaufen Sie die PRO-Version, um alle Funktionen freizuschalten</target>
+			</trans-unit>
+
+			<trans-unit id="buy_pro_link" resname="buy_pro_link">
+				<target>PRO-Version kaufen</target>
+			</trans-unit>
+			<trans-unit id="free_configurations" resname="free_configurations">
+				<target>3 Konfigurationen</target>
+			</trans-unit>
+			<trans-unit id="pro_configurations" resname="pro_configurations">
+				<target>Unendliche Konfigurationen</target>
+			</trans-unit>
+			<trans-unit id="free_animations" resname="free_animations">
+				<target>Keine Animationen</target>
+			</trans-unit>
+			<trans-unit id="pro_animations" resname="pro_animations">
+				<target>Fade In Animationen</target>
+			</trans-unit>
+			<trans-unit id="free_newfeatures" resname="free_newfeatures">
+				<target>Keine neuen Funktionen</target>
+			</trans-unit>
+			<trans-unit id="pro_newfeatures" resname="pro_newfeatures">
+				<target>Es wird noch viel mehr kommen</target>
+			</trans-unit>
+        </body>
+    </file>
+</xliff>

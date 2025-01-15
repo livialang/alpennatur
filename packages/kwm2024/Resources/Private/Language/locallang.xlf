@@ -6,7 +6,7 @@
             <authorEmail>s2310456011@fhooe.at</authorEmail>
         </header>
         <body>
-        <trans-unit id="search">
+       <!-- <trans-unit id="search">
             <source>Search</source>
             </trans-unit>
             <trans-unit id="infobox_header">
@@ -15,7 +15,7 @@
             <trans-unit id="more-link" xml:space="preserve">
             	<source>Text</source>
             	<target>Hier gehts zu den Details</target>
-            </trans-unit>
+            </trans-unit> -->
         </body>
     </file>
 </xliff>
